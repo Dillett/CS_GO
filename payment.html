@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>payment</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+
+	<div class="section-content payment-con">
+
+
+		<div  class="left-sidebar">
+
+			<div class="left-sb ">
+
+				<div class="header-top">
+					<div class="header-logo">
+						<a href="index.html"><img src="img/header-logo.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="header-bottom">
+					<!-- <div class="authorization-block">
+						<div class="authorization-button">
+							<div class="authorization-steam">
+								<a class="autho-steam" href="#" >Войти<img class="steam-icon" src="img/logo-steam.png" alt=""></a>
+							</div>
+
+							<div class="authorization-vk">
+								<a class="autho-vk" href="#" >Войти<img class="vk-icon" src="img/logo-vk.png" alt=""></a>
+							</div>
+						</div>
+
+						<div class="info-registration">
+							<i class="fa fa-info-circle"></i>
+							Выполните <strong>авторизацию</strong> через Steam или vk.com для использования всех разделов сервиса
+						</div>
+					</div> -->
+					<div class="block-user">
+						<div class="avatar-h">
+							<img src="img/header-avatar.png" alt="">
+						</div>
+						<div class="us-info">
+							<div class="user-information">
+								<div class="nick-name">
+									<a href="">Hand Some<img src="img/arrow-down.png" alt=""></a>
+								</div>
+								<!-- <div class="notifications">
+									<div class="shape">
+										<a href=""><img src="img/shape.png" alt=""></a>
+									</div>
+									<div class="mail">
+										<a href=""><img src="img/mail.png" alt=""></a>
+									</div> 
+								</div> -->
+							</div>
+							<div class="info-user-rate">
+								<span>Ставок сделано: 82</span>
+								<span>Баланс: <b>1550 &#8381;</b></span>
+							</div>
+						</div>
+							
+					</div>
+					
+					
+
+				</div>
+
+				<div class="navigation-block">
+					<div class="nav">
+						<ul>
+							<li><a class="nav-menu" href="index.html"><img src="img/icon1.png" alt="">Главная</a></li>
+							<li><a class="nav-menu" href="userAgreement.html"><img src="img/icon2.png" alt="">Пользовательское соглашение</a></li>
+							<li><a class="nav-menu" href="myRate.html"><img src="img/icon3.png" alt="">Мои ставки</a></li>
+							<li><a class="nav-menu" href="payment.html"><img src="img/icon4.png" alt="">Пополнение и промокод</a></li>
+							<li><a class="nav-menu" href="withdraw.html"><img src="img/icon5.png" alt="">Вывод денег</a></li>
+							<li><a class="nav-menu" href="referal.html"><img src="img/icon6.png" alt="">Партнёрская программа</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="vk-button">
+					<a href="#"><img src="img/vk-logo-black.png" alt=""></a>
+					<p>© 2017 CSGO Happy.ru. All Rights Reserved.</p>
+				</div>
+
+				<div class="switch-game">
+					<div class="csgo-game">
+						<img class="bullet" src="img/bullet.png" alt="">
+						<a class="csgo-switch switch-c active-color" href="#"><span>CS:GO<br>Cтавки</span></a>
+					</div>
+					<div class="dota2-game">
+						<img class="phoenix" src="img/phoenix.png" alt="">
+						<a class="dota2-switch switch-c" href="#"><span>DOTA2<br>Cтавки</span></a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="wrapper">
+			
+			<div class="menu-mobile--itself">
+				<div class="close">
+					<i class="fa fa-chevron-left"></i>
+				</div>
+
+				<div  class="desctop">
+
+					<div class="left-sb ">
+
+						<div class="header-top">
+							<div class="header-logo">
+								<a href="index.html"><img src="img/header-logo.png" alt=""></a>
+							</div>
+						</div>
+
+						<div class="header-bottom">
+							<!-- <div class="authorization-block">
+								<div class="authorization-button">
+									<div class="authorization-steam">
+										<a class="autho-steam" href="#" >Войти<img class="steam-icon" src="img/logo-steam.png" alt=""></a>
+									</div>
+
+									<div class="authorization-vk">
+										<a class="autho-vk" href="#" >Войти<img class="vk-icon" src="img/logo-vk.png" alt=""></a>
+									</div>
+								</div>
+
+								<div class="info-registration">
+									<i class="fa fa-info-circle"></i>
+									Выполните <strong>авторизацию</strong> через Steam или vk.com для использования всех разделов сервиса
+								</div>
+							</div> -->
+							<div class="block-user">
+								<div class="avatar-h">
+									<img src="img/header-avatar.png" alt="">
+								</div>
+								<div class="us-info">
+									<div class="user-information">
+										<div class="nick-name">
+											<a href="">Hand Some<img src="img/arrow-down.png" alt=""></a>
+										</div>
+									</div>
+									<div class="info-user-rate">
+										<span>Ставок сделано: 82</span>
+										<span>Баланс: <b>1550 &#8381;</b></span>
+									</div>
+								</div>
+									
+							</div>
+							
+							
+
+						</div>
+
+						<div class="navigation-block">
+							<div class="nav">
+								<ul>
+									<li><a class="nav-menu" href="index.html"><img src="img/icon1.png" alt="">Главная</a></li>
+									<li><a class="nav-menu" href="userAgreement.html"><img src="img/icon2.png" alt="">Пользовательское соглашение</a></li>
+									<li><a class="nav-menu" href="myRate.html"><img src="img/icon3.png" alt="">Мои ставки</a></li>
+									<li><a class="nav-menu" href="payment.html"><img src="img/icon4.png" alt="">Пополнение и промокод</a></li>
+									<li><a class="nav-menu" href="withdraw.html"><img src="img/icon5.png" alt="">Вывод денег</a></li>
+									<li><a class="nav-menu" href="referal.html"><img src="img/icon6.png" alt="">Партнёрская программа</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="vk-button">
+							<a href="#"><img src="img/vk-logo-black.png" alt=""></a>
+							<p>© 2017 CSGO Happy.ru. All Rights Reserved.</p>
+						</div>
+
+						<div class="switch-game">
+							<div class="csgo-game">
+								<img class="bullet " src="img/bullet.png" alt="">
+								<a class="csgo-switch switch-c active-color" href="#"><span>CS:GO<br>Cтавки</span></a>
+							</div>
+							<div class="dota2-game">
+								<img class="phoenix" src="img/phoenix.png" alt="">
+								<a class="dota2-switch switch-c" href="#"><span>DOTA2<br>Cтавки</span></a>
+							</div>
+						</div>
+
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+			<div class="menu_block">
+				<div class="menu_icon">
+					<i class="fa fa-chevron-right"></i>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="content">
+
+			<div class="content-p content-all">
+
+				<div class="payment-b">
+
+					<div class="description">
+						<span class="cur">Пополнение <strong> и промокод</strong></span>
+					</div>
+
+
+					<div class="switch-payment">
+						<a href="#sw-payment" class="link active-mr" href="#">Пополнение счета</a>
+						<a href="#sw-promo" class="link" href="#">Ввод промокода</a>
+					</div>
+
+					<div class="blocks-pp">
+						<div id="sw-payment" class="block-payment link-mr">
+							<form method="post" action="" target="_blanck">
+								<input name="sum" type="text" placeholder="0 &#8381;">
+								<button type="submit" class="sum-submit">Пополнить</button>
+							</form>
+							<div class="text-pay">
+								<p>После оплаты, деньги автоматически поступают на ваш баланс.</p>
+							</div>
+							<div class="payment-icon-p">
+								<div class="cont-img-p"><img class="payment-i" src="img/icon-payment/qiwi-wallet.png" alt=""></div>
+								<div class="cont-img-p"><img class="payment-i" src="img/icon-payment/web-money.png" alt=""></div>
+								<div class="cont-img-p"><img class="payment-i" src="img/icon-payment/megaphone.png" alt=""></div>
+								<div class="cont-img-p"><img class="payment-i" src="img/icon-payment/visa.png" alt=""></div>
+								<div class="cont-img-p"><img class="payment-i" src="img/icon-payment/mts.png" alt=""></div>
+								<div class="cont-img-p"><img class="payment-i" src="img/icon-payment/yandex.png" alt=""></div>
+							</div>
+						</div>
+
+						<div id="sw-promo" class="block-promo link-mr">
+							<form method="post" action="" target="_blanck">
+								<input name="promo" type="text" placeholder="CJQI-4509-WWMM">
+								<button type="submit" class="sum-submit">Ввести</button>
+							</form>
+							<div class="text-promo">
+								<p>Мы постоянно раздаём и разыгрываем бесплатные промокоды в нашей группе <a href="#">Вконтакте</a></p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+					
+
+			</div>
+
+		</div>
+
+		<div id="chartdiv-2" style="width: 100%; height: 400px; background-color: #000000;" ></div>
+
+
+		<footer id="footer" class="footer">
+			<div class="all-bl">
+				
+			
+				<div class="bl-1">
+					<div class="footer-block-1">
+						<div class="top-b">
+
+							<div class="logo-f">
+								<a href="#"><img src="img/logo-footer.png" alt=""></a>
+							</div>
+
+							<div class="title-footer">
+								<h3 class="h3">betshappy.ru</h3>
+
+								<div class="participants">
+									<span>Всего участников: <span>9999</span></span>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="centre-b">
+
+							<div class="social-avatar-1">
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+
+							</div>
+							
+							
+						</div>
+
+						<div class="bottom-b">
+							<div class="subscribe">
+								<a href="">Подписаться на новости</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="bl-2">
+					<div class="footer-block-2">
+						<div class="top-2-b">
+							<span>Cтавок сделано</span>
+							<p>28 955 999</p>
+							<span>Матчей сыграно</span>
+							<p>579 311</p>
+							<span>Всего пользователей</span>
+							<p>8 955 999</p>
+						</div>
+					</div>
+				</div>
+				<div class="bl-3">
+					<div class="footer-block-3">
+						<div class="top-3-b">
+							<div class="tagline">
+								<p><strong>BETSHappy.ru</strong> - ставки с высшим коэффициентом</p>
+							</div>
+							<div class="text-f">
+								<span>Наш сайт позволяет открывать кейсы кс го по самым низким ценам в рунете. 
+									У нас высокая посещаемость и мы сотрудничаем со многими рулетками, 
+									которые продают нам вещи за треть, а в некоторых случаях даже за четверть 
+									от их реальной цены. За счет этого открывать кейсы кс го у нас выгодно!</span>
+							</div>
+						</div>
+
+						<div class="bottom-block-3">
+							<div class="payment">
+								<span>Мы принимаем</span>
+							</div>
+							<div class="payment-icon">
+								<img class="payment-i" src="img/visa.png" alt="">
+								<img class="payment-i" src="img/WM.png" alt="">
+								<img class="payment-i" src="img/YM.png" alt="">
+								<img class="payment-i" src="img/MTC.png" alt="">
+								<img class="payment-i" src="img/megafon.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+	</div>
+
+
+		
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>

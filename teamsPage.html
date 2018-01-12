@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>TeamsPage</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<div class="section-content">
+
+
+		<div  class="left-sidebar">
+
+			<div class="left-sb ">
+
+				<div class="header-top">
+					<div class="header-logo">
+						<a href="index.html"><img src="img/header-logo.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="header-bottom">
+					<!-- <div class="authorization-block">
+						<div class="authorization-button">
+							<div class="authorization-steam">
+								<a class="autho-steam" href="#" >Войти<img class="steam-icon" src="img/logo-steam.png" alt=""></a>
+							</div>
+
+							<div class="authorization-vk">
+								<a class="autho-vk" href="#" >Войти<img class="vk-icon" src="img/logo-vk.png" alt=""></a>
+							</div>
+						</div>
+
+						<div class="info-registration">
+							<i class="fa fa-info-circle"></i>
+							Выполните <strong>авторизацию</strong> через Steam или vk.com для использования всех разделов сервиса
+						</div>
+					</div> -->
+					<div class="block-user">
+						<div class="avatar-h">
+							<img src="img/header-avatar.png" alt="">
+						</div>
+						<div class="us-info">
+							<div class="user-information">
+								<div class="nick-name">
+									<a href="">Hand Some<img src="img/arrow-down.png" alt=""></a>
+								</div>
+								<!-- <div class="notifications">
+									<div class="shape">
+										<a href=""><img src="img/shape.png" alt=""></a>
+									</div>
+									<div class="mail">
+										<a href=""><img src="img/mail.png" alt=""></a>
+									</div> 
+								</div> -->
+							</div>
+							<div class="info-user-rate">
+								<span>Ставок сделано: 82</span>
+								<span>Баланс: <b>1550 &#8381;</b></span>
+							</div>
+						</div>
+							
+					</div>
+					
+					
+
+				</div>
+
+				<div class="navigation-block">
+					<div class="nav">
+						<ul>
+							<li><a class="nav-menu" href="index.html"><img src="img/icon1.png" alt="">Главная</a></li>
+							<li><a class="nav-menu" href="userAgreement.html"><img src="img/icon2.png" alt="">Пользовательское соглашение</a></li>
+							<li><a class="nav-menu" href="myRate.html"><img src="img/icon3.png" alt="">Мои ставки</a></li>
+							<li><a class="nav-menu" href="payment.html"><img src="img/icon4.png" alt="">Пополнение и промокод</a></li>
+							<li><a class="nav-menu" href="withdraw.html"><img src="img/icon5.png" alt="">Вывод денег</a></li>
+							<li><a class="nav-menu" href="referal.html"><img src="img/icon6.png" alt="">Партнёрская программа</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="vk-button">
+					<a href="#"><img src="img/vk-logo-black.png" alt=""></a>
+					<p>© 2017 CSGO Happy.ru. All Rights Reserved.</p>
+				</div>
+
+				<div class="switch-game">
+					<div class="csgo-game">
+						<img class="bullet" src="img/bullet.png" alt="">
+						<a class="csgo-switch switch-c active-color" href="#"><span>CS:GO<br>Cтавки</span></a>
+					</div>
+					<div class="dota2-game">
+						<img class="phoenix" src="img/phoenix.png" alt="">
+						<a class="dota2-switch switch-c" href="#"><span>DOTA2<br>Cтавки</span></a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="wrapper">
+			
+			<div class="menu-mobile--itself">
+				<div class="close">
+					<i class="fa fa-chevron-left"></i>
+				</div>
+
+				<div  class="desctop">
+
+					<div class="left-sb ">
+
+						<div class="header-top">
+							<div class="header-logo">
+								<a href="index.html"><img src="img/header-logo.png" alt=""></a>
+							</div>
+						</div>
+
+						<div class="header-bottom">
+							<!-- <div class="authorization-block">
+								<div class="authorization-button">
+									<div class="authorization-steam">
+										<a class="autho-steam" href="#" >Войти<img class="steam-icon" src="img/logo-steam.png" alt=""></a>
+									</div>
+
+									<div class="authorization-vk">
+										<a class="autho-vk" href="#" >Войти<img class="vk-icon" src="img/logo-vk.png" alt=""></a>
+									</div>
+								</div>
+
+								<div class="info-registration">
+									<i class="fa fa-info-circle"></i>
+									Выполните <strong>авторизацию</strong> через Steam или vk.com для использования всех разделов сервиса
+								</div>
+							</div> -->
+							<div class="block-user">
+								<div class="avatar-h">
+									<img src="img/header-avatar.png" alt="">
+								</div>
+								<div class="us-info">
+									<div class="user-information">
+										<div class="nick-name">
+											<a href="">Hand Some<img src="img/arrow-down.png" alt=""></a>
+										</div>
+									</div>
+									<div class="info-user-rate">
+										<span>Ставок сделано: 82</span>
+										<span>Баланс: <b>1550 &#8381;</b></span>
+									</div>
+								</div>
+									
+							</div>
+							
+							
+
+						</div>
+
+						<div class="navigation-block">
+							<div class="nav">
+								<ul>
+									<li><a class="nav-menu" href="index.html"><img src="img/icon1.png" alt="">Главная</a></li>
+									<li><a class="nav-menu" href="userAgreement.html"><img src="img/icon2.png" alt="">Пользовательское соглашение</a></li>
+									<li><a class="nav-menu" href="myRate.html"><img src="img/icon3.png" alt="">Мои ставки</a></li>
+									<li><a class="nav-menu" href="payment.html"><img src="img/icon4.png" alt="">Пополнение и промокод</a></li>
+									<li><a class="nav-menu" href="withdraw.html"><img src="img/icon5.png" alt="">Вывод денег</a></li>
+									<li><a class="nav-menu" href="referal.html"><img src="img/icon6.png" alt="">Партнёрская программа</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="vk-button">
+							<a href="#"><img src="img/vk-logo-black.png" alt=""></a>
+							<p>© 2017 CSGO Happy.ru. All Rights Reserved.</p>
+						</div>
+
+						<div class="switch-game">
+							<div class="csgo-game">
+								<img class="bullet " src="img/bullet.png" alt="">
+								<a class="csgo-switch switch-c active-color" href="#"><span>CS:GO<br>Cтавки</span></a>
+							</div>
+							<div class="dota2-game">
+								<img class="phoenix" src="img/phoenix.png" alt="">
+								<a class="dota2-switch switch-c" href="#"><span>DOTA2<br>Cтавки</span></a>
+							</div>
+						</div>
+
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+			<div class="menu_block">
+				<div class="menu_icon">
+					<i class="fa fa-chevron-right"></i>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="content">
+
+			<div class="content-tp content-all">
+
+				<div class="teams-page">
+
+					<div class="description">
+						<span class="cur">Информация <strong>матча</strong></span>
+					</div>
+
+					<div class="title-tp">
+						<span><strong>Матч окончен</strong> - 24.10 22:05 MSK</span>
+						<span>ESEA Premier League – Best Of 5</span>
+						<span class="res-mob">16 : 10</span>
+					</div>
+
+					<div class="info-teams-page">
+
+						<div class="left-hand">
+							<div class="cont-result-tp">
+								<div class="result-lh">
+									<span>2W - 3L</span>
+									<span class="lose">Lose</span>
+									<p class="avatar-tp">Virtus Pro</p>	
+								</div>
+								<div class="logo-lh">
+									<i class="fa fa-flag-o hidden"></i><img src="img/virtus-pro.png" alt="">
+								</div>
+							</div>
+							
+
+							<div class="buttons-tp">
+								<div class="button button-white-1"><span class="button-tp">15%</span><span class="subbut">шансы</span></div>
+								<div class="button button-green"><span class="button-tp">8.003</span><span class="subbut">коэфициент</span></div>
+								<div class="button button-norm"><span class="button-tp">4720 <span>&#8381;</span></span><span class="subbut">поставлено</span></div>
+							</div>
+						</div>
+
+						<div class="center-hand">
+							<span>2-3</span>
+						</div>
+
+						<div class="right-hand">
+							<div class="cont-result-tp">
+								<div class="logo-lh">
+									<i class="fa fa-flag-o"></i><img src="img/Cloud9.png" alt="">
+								</div>
+								<div class="result-lh">
+									<span class="win">win</span>
+									<span>2W - 3L</span>
+									<p class="avatar-tp">Cloud 9</p>	
+								</div>
+							</div>
+							
+
+							<div class="buttons-tp">
+								<div class="button button-norm"><span class="button-tp">15680 <span>&#8381;</span></span><span class="subbut">поставлено</span></div>
+								<div class="button button-green"><span class="button-tp">2.580</span><span class="subbut">коэфициент</span></div>
+								<div class="button button-white-1"><span class="button-tp">85%</span><span class="subbut">шансы</span></div>
+								
+								
+							</div>
+						</div>
+
+						<div id="sw" class="switch-b switch-tp">
+							<a href="#cont-lane" class="link active-mr">Смотреть</a>
+							<a href="#cont-expr" class="link">График</a>
+							<a href="#stats-tp" class="link">Статистика</a>
+						</div>
+
+					</div>
+
+					
+					<div id="cont-lane" class="cont-lane-mr link-mr twitch-tp">
+
+							<iframe class="teams-twitch" src="https://player.twitch.tv/?channel=esl_ruhub_csgob" frameborder="0" allowfullscreen="true" scrolling="no" height="570" width="100%"></iframe>
+
+					</div>
+
+					<div id="cont-expr" class="cont-expr-mr link-mr graf-tp">
+						<div class="" id="chartdiv2" style="width: 100%; height: 400px; background-color: #000000;" ></div>
+					</div>
+
+
+					<div id="stats-tp" class="cont-lane-mr link-mr stats-teampage">
+						<div class="block-histoty">
+								<div class="col-md-5">
+									<div class="title-h">
+										<span class="cur-h">Последние матчи <strong>Virtus Pro</strong></span>
+									</div>
+									<div class="image-logo-h">
+										<ul>
+											<li>
+												<img src="img/logo-team.png" alt="">
+												<p><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+											<li>
+												<img src="img/logo-team-2.png" alt="">
+												<p><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+											<li>
+												<img src="img/logo-team-3.png" alt="">
+												<p><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+											<li>
+												<img src="img/logo-team-4.png" alt="">
+												<p class="lose"><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="col-md-2">
+									<div class="title-h">
+										<span class="cur-h">Личные <strong>встречи</strong></span>
+									</div>
+
+									<div class="res-history">
+										<ul>
+											<li><i class="lose fa fa-trophy"></i><span>20.10.2016</span><i class="fa fa-trophy"></i></li>
+											<li><i class="fa fa-trophy"></i><span>25.08.2016</span><i class="lose fa fa-trophy"></i></li>
+											<li><i class="fa fa-trophy"></i><span>17.04.2016</span><i class="fa fa-trophy"></i></li>
+											<li><i class="lose fa fa-trophy"></i><span>02.03.2016</span><i class="fa fa-trophy"></i></li>
+										</ul>
+									</div>
+										
+
+								</div>
+
+								<div class="col-md-5">
+									<div class="title-h">
+										<span class="cur-h">Последние матчи <strong>Cloud9</strong></span>
+									</div>
+									<div class="image-logo-h">
+										<ul>
+											<li>
+												<img src="img/logo-team.png" alt="">
+												<p><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+											<li>
+												<img src="img/logo-team-2.png" alt="">
+												<p><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+											<li>
+												<img src="img/logo-team-3.png" alt="">
+												<p><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+											<li>
+												<img src="img/logo-team-4.png" alt="">
+												<p class="lose"><i class="fa fa-trophy"></i>vs. Cloud9</p>
+												<span>21.09.2017</span>
+											</li>
+
+										</ul>
+									</div>
+								</div>
+						</div>
+
+						<div class="info-i">
+							<div class="s-grid r1">
+								<div class="gdiv">
+									<div class="inf-game">
+										<ul>
+											<li>
+												<p>Карта</p><span>Dust 2</span>
+											</li>
+											<li>
+												<p>Длительность</p><span>32 мин.</span>
+											</li>
+											<li>
+												<p>Дата</p><span>вчера, 00:28</span>
+											</li>
+											<li>
+												<p>Код матча</p><span>CSGO-UtZWY-SES4B-EpOGu-U9VJ6-Wz23L</span>
+											</li>
+										</ul>
+									</div>
+
+									
+
+									<div class="stable">
+										
+										<div class="block-l">
+											<div class="logo-l">
+												<img src="img/logo-team-4.png" alt="">
+											</div>
+											<p>16</p>
+										</div>
+
+										<div class="win-t">
+											<i class="fa fa-trophy"></i>
+											<p>победитель</p>
+										</div>
+
+										<table class="table-striped table table-hover">
+											<thead>
+												<tr class="n-bg">
+													<th colspan="2"></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Игр">Стим</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Выиграно">У</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Hичьих">П</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Проиграно">С</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Очков">СЦИ</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Очков">Счет</span></th>
+												</tr>
+											</thead>
+
+											<tbody>
+
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar1.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/25.png"></td> -->
+													<td>
+														<span id="player-b" class="player" title="Kaza[S]" >Kaza[S]</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">5</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar2.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/96.png"></td> -->
+													<td>
+														<span class="player" title="Sejk">Sejk</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">5</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar3.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/25.png"></td> -->
+													<td>
+														<span class="player" title="marjatta">marjatta</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">4</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar1.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/96.png"></td> -->
+													<td>
+														<span class="player" title="DoN">DoN</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">3</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar2.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/18.png"></td> -->
+													<td>
+														<span class="player" title="MckelleR #EL_Major" >MckelleR #EL_Major</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">3</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												
+											</tbody>
+										</table>
+									</div>
+
+									<div class="stable second-t">
+										
+										<div class="block-2">
+
+											<p>8</p>
+											<div class="logo-2">
+												<img src="img/logo-team-3.png" alt="">
+											</div>
+											
+										</div>
+
+										<!-- <div class="win-t hidd">
+											<i class="fa fa-trophy"></i>
+											<p>победитель</p>
+										</div> -->
+
+										<table class="table-striped table table-hover">
+											<thead>
+												<tr class="n-bg">
+													<th colspan="2"></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Игр">Стим</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Выиграно">У</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Hичьих">П</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Проиграно">С</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Очков">СЦИ</span></th>
+													<th class="tpt"><span data-placement="bottom" class="tip" title="" data-original-title="Очков">Счет</span></th>
+												</tr>
+											</thead>
+
+											<tbody>
+
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar1.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/25.png"></td> -->
+													<td>
+														<span class="player" title="Kaza[S]">Kaza[S]</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">5</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar2.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/96.png"></td> -->
+													<td>
+														<span class="player" title="Sejk">Sejk</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">5</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar3.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/25.png"></td> -->
+													<td>
+														<span class="player" title="marjatta" >marjatta</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">4</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar1.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/96.png"></td> -->
+													<td>
+														<span class="player" title="DoN">DoN</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">3</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												<tr>
+													<td width="30">
+														<img class="b-img" src="img/lavatar2.png" alt="">
+													</td>
+													<!-- <td width="15"><img width="15" src="/media/flag/18.png"></td> -->
+													<td>
+														<span class="player" title="MckelleR #EL_Major" >MckelleR #EL_Major</span>
+													</td>
+													<td class="tpo">
+														<img src="img/steam.png" alt="">
+													</td>
+													<td class="tpo">3</td>
+													<td class="tpo">0</td>
+													<td class="tpo">0</td>
+													<td class="tpo">
+														<img src="img/star.png" alt="">
+													</td>
+													<td class="tpo">0</td>
+												</tr>
+												
+											</tbody>
+										</table>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="player-info">
+								<div class="tab-1">
+									<div class="tab-2">
+										<div class="title-in">
+											<span class="cur-in"><strong>Заслуги </strong>Kaza[S] <strong>по раундам</strong></span>
+											<p>Что бы посмотреть статистику других игроков, выберите их из списка выше</p>
+										</div>
+
+										<div class="result">
+
+											<div class="linear-l">
+												<img src="img/liner.png" alt="">
+											</div>
+												
+											<div class="c-game">
+												<div class="block-st">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+
+												<div class="block-st">
+													<div class="img-c-inf">
+														<img src="img/bone-head.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													
+												</div>
+
+												<div class="block-st">
+													
+												</div>
+
+												<div class="block-st">
+													
+												</div>
+
+												<div class="block-st back-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone-head.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													
+												</div>
+
+												<div class="block-st">
+													
+												</div>
+
+												<div class="block-st">
+													
+												</div>
+
+												<div class="block-st">
+													<div class="img-c-inf">
+														<img src="img/bone-head.png" alt="">
+													</div>
+													
+												</div>
+
+												<div class="block-st">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													
+												</div>
+
+												<div class="block-st">
+													
+												</div>
+
+												<div class="block-st">
+													
+												</div>
+
+												<div class="block-st">
+													<div class="img-c-inf">
+														<img src="img/bone-head.png" alt="">
+													</div>
+													
+												</div>
+
+												<div class="block-st">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+
+												<div class="block-st bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+
+												<div class="block-st bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+
+												
+												<div class="block-st block-t">
+													
+												</div>
+												<div class="block-st block-t back-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone-head.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t">
+													
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													
+												</div>
+												<div class="block-st block-t back-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone-head.png" alt="">
+													</div>
+													
+												</div>
+												<div class="block-st block-t">
+													
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone-head.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+												<div class="block-st block-t bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+													<div class="img-c-inf">
+														<img src="img/bone.png" alt="">
+													</div>
+												</div>
+
+											</div>	
+
+											<div class="t-game">
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death back-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death back-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death back-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death back-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death back-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death back-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death">
+													
+												</div>
+												<div class="block-death">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death back-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+												<div class="block-death bone-hidd">
+													<div class="img-c-inf">
+														<img src="img/death.png" alt="">
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<footer id="footer" class="footer">
+			<div class="all-bl">
+				
+			
+				<div class="bl-1">
+					<div class="footer-block-1">
+						<div class="top-b">
+
+							<div class="logo-f">
+								<a href="#"><img src="img/logo-footer.png" alt=""></a>
+							</div>
+
+							<div class="title-footer">
+								<h3 class="h3">betshappy.ru</h3>
+
+								<div class="participants">
+									<span>Всего участников: <span>9999</span></span>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="centre-b">
+
+							<div class="social-avatar-1">
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+
+							</div>
+							
+							
+						</div>
+
+						<div class="bottom-b">
+							<div class="subscribe">
+								<a href="">Подписаться на новости</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="bl-2">
+					<div class="footer-block-2">
+						<div class="top-2-b">
+							<span>Cтавок сделано</span>
+							<p>28 955 999</p>
+							<span>Матчей сыграно</span>
+							<p>579 311</p>
+							<span>Всего пользователей</span>
+							<p>8 955 999</p>
+						</div>
+					</div>
+				</div>
+				<div class="bl-3">
+					<div class="footer-block-3">
+						<div class="top-3-b">
+							<div class="tagline">
+								<p><strong>BETSHappy.ru</strong> - ставки с высшим коэффициентом</p>
+							</div>
+							<div class="text-f">
+								<span>Наш сайт позволяет открывать кейсы кс го по самым низким ценам в рунете. 
+									У нас высокая посещаемость и мы сотрудничаем со многими рулетками, 
+									которые продают нам вещи за треть, а в некоторых случаях даже за четверть 
+									от их реальной цены. За счет этого открывать кейсы кс го у нас выгодно!</span>
+							</div>
+						</div>
+
+						<div class="bottom-block-3">
+							<div class="payment">
+								<span>Мы принимаем</span>
+							</div>
+							<div class="payment-icon">
+								<img class="payment-i" src="img/visa.png" alt="">
+								<img class="payment-i" src="img/WM.png" alt="">
+								<img class="payment-i" src="img/YM.png" alt="">
+								<img class="payment-i" src="img/MTC.png" alt="">
+								<img class="payment-i" src="img/megafon.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+	</div>
+		
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

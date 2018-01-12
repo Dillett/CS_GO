@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>myRate</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+</head>
+
+<body>
+	<div class="section-content">
+
+
+		<div  class="left-sidebar">
+
+			<div class="left-sb ">
+
+				<div class="header-top">
+					<div class="header-logo">
+						<a href="index.html"><img src="img/header-logo.png" alt=""></a>
+					</div>
+				</div>
+
+				<div class="header-bottom">
+					<!-- <div class="authorization-block">
+						<div class="authorization-button">
+							<div class="authorization-steam">
+								<a class="autho-steam" href="#" >Войти<img class="steam-icon" src="img/logo-steam.png" alt=""></a>
+							</div>
+
+							<div class="authorization-vk">
+								<a class="autho-vk" href="#" >Войти<img class="vk-icon" src="img/logo-vk.png" alt=""></a>
+							</div>
+						</div>
+
+						<div class="info-registration">
+							<i class="fa fa-info-circle"></i>
+							Выполните <strong>авторизацию</strong> через Steam или vk.com для использования всех разделов сервиса
+						</div>
+					</div> -->
+					<div class="block-user">
+						<div class="avatar-h">
+							<img src="img/header-avatar.png" alt="">
+						</div>
+						<div class="us-info">
+							<div class="user-information">
+								<div class="nick-name">
+									<a href="">Hand Some<img src="img/arrow-down.png" alt=""></a>
+								</div>
+								<!-- <div class="notifications">
+									<div class="shape">
+										<a href=""><img src="img/shape.png" alt=""></a>
+									</div>
+									<div class="mail">
+										<a href=""><img src="img/mail.png" alt=""></a>
+									</div> 
+								</div> -->
+							</div>
+							<div class="info-user-rate">
+								<span>Ставок сделано: 82</span>
+								<span>Баланс: <b>1550 &#8381;</b></span>
+							</div>
+						</div>
+							
+					</div>
+					
+					
+
+				</div>
+
+				<div class="navigation-block">
+					<div class="nav">
+						<ul>
+							<li><a class="nav-menu" href="index.html"><img src="img/icon1.png" alt="">Главная</a></li>
+							<li><a class="nav-menu" href="userAgreement.html"><img src="img/icon2.png" alt="">Пользовательское соглашение</a></li>
+							<li><a class="nav-menu" href="myRate.html"><img src="img/icon3.png" alt="">Мои ставки</a></li>
+							<li><a class="nav-menu" href="payment.html"><img src="img/icon4.png" alt="">Пополнение и промокод</a></li>
+							<li><a class="nav-menu" href="withdraw.html"><img src="img/icon5.png" alt="">Вывод денег</a></li>
+							<li><a class="nav-menu" href="referal.html"><img src="img/icon6.png" alt="">Партнёрская программа</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="vk-button">
+					<a href="#"><img src="img/vk-logo-black.png" alt=""></a>
+					<p>© 2017 CSGO Happy.ru. All Rights Reserved.</p>
+				</div>
+
+				<div class="switch-game">
+					<div class="csgo-game">
+						<img class="bullet" src="img/bullet.png" alt="">
+						<a class="csgo-switch switch-c active-color" href="#"><span>CS:GO<br>Cтавки</span></a>
+					</div>
+					<div class="dota2-game">
+						<img class="phoenix" src="img/phoenix.png" alt="">
+						<a class="dota2-switch switch-c" href="#"><span>DOTA2<br>Cтавки</span></a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="wrapper">
+			
+			<div class="menu-mobile--itself">
+				<div class="close">
+					<i class="fa fa-chevron-left"></i>
+				</div>
+
+				<div  class="desctop">
+
+					<div class="left-sb ">
+
+						<div class="header-top">
+							<div class="header-logo">
+								<a href="index.html"><img src="img/header-logo.png" alt=""></a>
+							</div>
+						</div>
+
+						<div class="header-bottom">
+							<!-- <div class="authorization-block">
+								<div class="authorization-button">
+									<div class="authorization-steam">
+										<a class="autho-steam" href="#" >Войти<img class="steam-icon" src="img/logo-steam.png" alt=""></a>
+									</div>
+
+									<div class="authorization-vk">
+										<a class="autho-vk" href="#" >Войти<img class="vk-icon" src="img/logo-vk.png" alt=""></a>
+									</div>
+								</div>
+
+								<div class="info-registration">
+									<i class="fa fa-info-circle"></i>
+									Выполните <strong>авторизацию</strong> через Steam или vk.com для использования всех разделов сервиса
+								</div>
+							</div> -->
+							<div class="block-user">
+								<div class="avatar-h">
+									<img src="img/header-avatar.png" alt="">
+								</div>
+								<div class="us-info">
+									<div class="user-information">
+										<div class="nick-name">
+											<a href="">Hand Some<img src="img/arrow-down.png" alt=""></a>
+										</div>
+										
+									</div>
+									<div class="info-user-rate">
+										<span>Ставок сделано: 82</span>
+										<span>Баланс: <b>1550 &#8381;</b></span>
+									</div>
+								</div>
+									
+							</div>
+							
+							
+
+						</div>
+
+						<div class="navigation-block">
+							<div class="nav">
+								<ul>
+									<li><a class="nav-menu" href="index.html"><img src="img/icon1.png" alt="">Главная</a></li>
+									<li><a class="nav-menu" href="userAgreement.html"><img src="img/icon2.png" alt="">Пользовательское соглашение</a></li>
+									<li><a class="nav-menu" href="myRate.html"><img src="img/icon3.png" alt="">Мои ставки</a></li>
+									<li><a class="nav-menu" href="payment.html"><img src="img/icon4.png" alt="">Пополнение и промокод</a></li>
+									<li><a class="nav-menu" href="withdraw.html"><img src="img/icon5.png" alt="">Вывод денег</a></li>
+									<li><a class="nav-menu" href="referal.html"><img src="img/icon6.png" alt="">Партнёрская программа</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="vk-button">
+							<a href="#"><img src="img/vk-logo-black.png" alt=""></a>
+							<p>© 2017 CSGO Happy.ru. All Rights Reserved.</p>
+						</div>
+
+						<div class="switch-game">
+							<div class="csgo-game">
+								<img class="bullet " src="img/bullet.png" alt="">
+								<a class="csgo-switch switch-c active-color" href="#"><span>CS:GO<br>Cтавки</span></a>
+							</div>
+							<div class="dota2-game">
+								<img class="phoenix" src="img/phoenix.png" alt="">
+								<a class="dota2-switch switch-c" href="#"><span>DOTA2<br>Cтавки</span></a>
+							</div>
+						</div>
+
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+			<div class="menu_block">
+				<div class="menu_icon">
+					<i class="fa fa-chevron-right"></i>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="content">
+
+			<div class="content-u content-all">
+
+				<div class="user-agrem">
+
+						<div class="description">
+							<span class="cur">Пользовательское <strong>соглашение</strong></span>
+						</div>
+
+						<div class="user-block">
+
+							<div class="title-us">
+								<h1 class="h1">Пользовательское соглашение</h1>
+
+								<p>Данное соглашение распространяется на всех пользователей<br>
+									сайта  <a href="www.betshappy.ru">www.betshappy.ru</a></p>
+							</div>
+
+							<div class="info-t">
+								<p>Сервис http://betshappy.ru является международным проектом, позволяющий пользователям делать ставки на спортивные мероприятия. Делая ставки на http://betshappy.ru, Вы 	подтверждаете, что достигли возраста
+									совершеннолетия, и законами страны, в которой Вы проживаете, Вам разрешено делать ставки. Если у Администрации сайта возникли вопросы касаемо вашего возраста, она вправе заморозить Ваш аккаунт и запросить
+									документы для подтверждения Вашего возраста. Данное пользовательское соглашение регулирует порядок использования сайта.
+								</p>
+								<p>
+									Если вы не согласны с какими-либо условиями пользовательского данного пользовательского соглашения, вы обязаны незамедлительно покинуть страницу.
+								</p>
+
+								<p>
+									IBS S.R.L с одной стороны, и лицо, акцептовавшее оферту, размещенную в сети Интернет по постоянному адресу http://betshappy.ru/#!/agreement, с другой стороны, заключили настоящее пользовательское
+									соглашение о нижеследующем.
+								</p>
+							</div>
+
+							<div class="head-line">
+								<div class="ic-h">
+									<span>1</span>
+								</div>
+								<h3 class="h3">Термины и определения</h3>
+							</div>
+							
+							<div class="info-t">
+								<p>1.1. В настоящем пользовательском соглашении, если из текста прямо не вытекает иное, следующие термины будут иметь указанные ниже значения:
+									«Пользователь»Дееспособное физическое лицо, заключившее Соглашение. «Правила»Правила размещения Ставок и зачисления выигрышей. Текст правил расположен в приложении №1 и является неотъемлемой частью
+									Соглашения. «Промокод»Ключевое слово, дающее Пользователю право на скидку при размещении Ставок. «Сайт»Совокупность информации, текстов, графических элементов, дизайна, изображений, фото и видеоматериалов,
+									программ для ЭВМ, иных результатов интеллектуальной деятельности, доступных в сети интернет по доменному адресу http://betshappy.ru. «Сервис» INTERNATIONAL BUSINESS SYSTEMS S.R.L., юридическое лицо,
+									зарегистрированное по законодательству Коста Рики, юридический адрес: 350 mtrs del restaurante Ceviche del Rey Santa Ana, San Jose, Costa Rica «Событие»Киберспортивное событие, на которое Пользователь может сделать
+									Ставку. Список Событий доступен на Сайте. «Соглашение»Настоящее пользовательское соглашение. «Ставка»Ставка наисход События, размещаемая Пользователем с использованием Сайта. «Стороны»Сервис и Пользователь.
+									«Ник»Псевдоним, используемый Пользователем в чате.<br>
+									1.2. Все остальные термины и определения, встречающиеся в тексте Соглашения, толкуются Сторонами в соответствии с действующим законодательством страны Сервиса и сложившимися в сети интернет обычными правилами
+									толкования соответствующих терминов.<br>
+									1.3. Названия заголовков (пунктов) Соглашения предназначены исключительно для удобства пользования текстом Соглашения и буквального юридического значения не имеют.
+								</p>
+							</div>
+
+							<div class="head-line">
+								<div class="ic-h">
+									<span>2</span>
+								</div>
+								<h3 class="h3">Порядок заключения Соглашения</h3>
+							</div>
+
+							<div class="info-t">
+								<p>
+								2.1. Текст Соглашения, постоянно размещенный в сети Интернет по сетевому адресу http://betshappy.ru/#!/agreement содержит все существенные условия Соглашения и является предложением Сервиса заключить<br>
+									Соглашение с любым полностью дееспособным третьим лицом.<br>
+									2.2. Надлежащим акцептом настоящей оферты считается осуществление третьим лицом следующих действий:<br>
+									2.2.1. Проставление символа в специальном поле под заголовком «Я принимаю условия пользовательского соглашения»;<br>
+									2.2.2. Авторизация на Сайте путем перехода по ссылке «Войти» и осуществления авторизации через уже имеющийся аккаунт Steam или путем создания нового аккаунта Steam.<br>
+								</p>
+							</div>
+
+							<div class="head-line">
+								<div class="ic-h">
+									<span>3</span>
+								</div>
+								<h3 class="h3">Предмет Соглашения</h3>
+							</div>
+
+
+							<div class="info-t">
+								<p>
+								3.1. Сервис предоставляет Пользователю безвозмездную простую (неисключительную) лицензию на использование Сайта и его программных средств по их прямому назначению, как то предусмотрено явными
+								пользовательскими функциями Сайта на территории всего мира и на срок, в течение которого Сайт остается доступным для Пользователя;
+								</p>
+							</div>
+
+							<div class="head-line">
+								<div class="ic-h">
+									<span>4</span>
+								</div>
+								<h3 class="h3">Использование Сайта</h3>
+							</div>
+
+							<div class="info-t">
+								<p>
+								4.1. Пользователь посредством Сайта имеет возможность:<br>
+									4.1.1. Размещать Ставки;<br>
+									4.1.2. Просматривать статистику Событий;<br>
+									4.1.3. Осуществлять вывод денежных средств;<br>
+									4.2. Пользователю запрещается:<br>
+									4.2.1. обходить технические ограничения, установленные на Сайте;<br>
+									4.2.2. создавать копии экземпляров Сайта, а также его внешнего оформления (дизайна);<br>
+									4.2.3. совершать действия, направленные на изменение функционирования и работоспособности Сайта;<br>
+									4.2.4. использовать Ники, содержащие в себе мат, оскорбления, расизм или рекламу;<br>
+									4.2.5. вводить в заблуждение пользователей проекта, путем использования никнеймов «Администратор», «Модератор» и подобных им;<br>
+									4.2.6. проявлять неуважение к другим пользователям, администрации Сайта и всему проекту в целом;<br>
+									4.2.7. грубо оскорблять игроков;<br>
+									4.2.8. распространять ссылки, содержащие рекламу;<br>
+									4.2.9. распространять ссылки на сайты, содержащие в себе порнографические, экстремистские или иные материалы, способные навредить нравственному или психическому здоровью человека;<br>
+									4.2.10. распространять сообщения, содержащие признаки расизма/экстремизма, вирусы, оскорбления, мат,порнографию и рекламу. Также запрещены флуд сообщения;<br>
+									4.2.11. использовать чат для осуществления любых сделок вне сайта betshappy.ru.<br>
+								</p>
+							</div>
+
+
+							<div class="head-line">
+								<div class="ic-h">
+									<span>5</span>
+								</div>
+								<h3 class="h3">Размещение ставок</h3>
+							</div>
+
+							<div class="info-t">
+								<p>
+								5.1. Для размещения Ставки, Пользователь обязан пополнить баланс. Баланс может быть пополнен двумя способами:<br>
+									5.1.1. через специальную страницу http://betshappy.ru/#!/profile/invoice с использованием способов оплаты банковскими картами или электронными средствами платежа.<br>
+									5.1.2. Через специальную страницу http://betshappy.ru/#!/profile/invoice с использованием способа оплаты через сервис «SkinPay».<br>
+									5.2. Вывод денежных средств с баланса осуществляются только существующими способами вывода, которые приведены на странице http://betshappy.ru/checkout/.<br>
+									5.3. При полонении счета способом, указанным в пункте 5.1.1 Соглашения, вывод денежных средств со счета сначала должен быть произведен обратно на использованный кошелек, в объеме не меньшем, чем исходный.<br>
+									После этого, Пользователю будет доступен вывод средств на другие кошельки.<br>
+									5.4. Срок вывода денежных средств может составлять до 3 (трех) суток.<br>
+									5.5. Заявка на вывод средств может быть отменена пользователем на странице http://betshappy.ru/#!/profile/payment до момента назначения заявке статуса «В обработке».<br>
+									5.6. Пользователь несет ответственность за предоставленную платежную информацию, с помощью которой Сервис осуществляет вывод денежных средств.<br>
+									5.7. Для пополнения баланса Пользователь вправе использовать Промокод.<br>
+									5.8. Порядок размещения Ставок, а также зачисления выигрышей, устанавливаются Правилами.<br>
+								</p>
+							</div>
+
+
+
+
+						</div>
+
+					
+
+
+
+
+				
+				</div>
+
+			</div>
+
+			
+
+		</div>
+
+		<footer id="footer" class="footer">
+			<div class="all-bl">
+				
+			
+				<div class="bl-1">
+					<div class="footer-block-1">
+						<div class="top-b">
+
+							<div class="logo-f">
+								<a href="#"><img src="img/logo-footer.png" alt=""></a>
+							</div>
+
+							<div class="title-footer">
+								<h3 class="h3">betshappy.ru</h3>
+
+								<div class="participants">
+									<span>Всего участников: <span>9999</span></span>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="centre-b">
+
+							<div class="social-avatar-1">
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+								<div class="block-avatar">
+									<a  class="avatar-s" href=""><img src="img/avatar1.png" alt=""></a>
+								</div>
+
+							</div>
+							
+							
+						</div>
+
+						<div class="bottom-b">
+							<div class="subscribe">
+								<a href="">Подписаться на новости</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="bl-2">
+					<div class="footer-block-2">
+						<div class="top-2-b">
+							<span>Cтавок сделано</span>
+							<p>28 955 999</p>
+							<span>Матчей сыграно</span>
+							<p>579 311</p>
+							<span>Всего пользователей</span>
+							<p>8 955 999</p>
+						</div>
+					</div>
+				</div>
+				<div class="bl-3">
+					<div class="footer-block-3">
+						<div class="top-3-b">
+							<div class="tagline">
+								<p><strong>BETSHappy.ru</strong> - ставки с высшим коэффициентом</p>
+							</div>
+							<div class="text-f">
+								<span>Наш сайт позволяет открывать кейсы кс го по самым низким ценам в рунете. 
+									У нас высокая посещаемость и мы сотрудничаем со многими рулетками, 
+									которые продают нам вещи за треть, а в некоторых случаях даже за четверть 
+									от их реальной цены. За счет этого открывать кейсы кс го у нас выгодно!</span>
+							</div>
+						</div>
+
+						<div class="bottom-block-3">
+							<div class="payment">
+								<span>Мы принимаем</span>
+							</div>
+							<div class="payment-icon">
+								<img class="payment-i" src="img/visa.png" alt="">
+								<img class="payment-i" src="img/WM.png" alt="">
+								<img class="payment-i" src="img/YM.png" alt="">
+								<img class="payment-i" src="img/MTC.png" alt="">
+								<img class="payment-i" src="img/megafon.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+	</div>
+		
+	
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
